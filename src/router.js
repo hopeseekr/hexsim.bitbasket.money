@@ -78,7 +78,7 @@ router.beforeEach((to, from, next) => {
     if (to.matched.some(record => record.meta.auth === true)) {
         if (localStorage.getItem('jwt') == null) {
             next({
-                path: '/login',
+                path: '/',
                 params: {nextUrl: to.fullPath}
             });
         } else {

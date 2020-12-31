@@ -1,19 +1,12 @@
 <template>
     <section id="base">
-        <MobileHeader/>
-        <div class="kt-grid kt-grid--hor kt-grid--root">
-            <Header :user="user" />
-            <div class="kt-grid__item kt-grid__item--fluid kt-grid kt-grid--ver kt-page">
-                <SideMenu/>
-                <div class="kt-grid__item kt-grid__item--fluid kt-grid kt-grid--hor kt-wrapper" id="kt_wrapper">
-                    <div class="kt-content kt-grid__item kt-grid__item--fluid kt-grid kt-grid--hor" id="kt_content">
-                        <router-view @loggedIn="loggedIn" :user="user"></router-view>
-                    </div>
-                    <Footer/>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <h2>Main Content</h2>
                 </div>
             </div>
         </div>
-        <div id="kt_scrolltop" class="kt-scrolltop"><i class="fa fa-arrow-up"></i></div>
     </section>
 </template>
 

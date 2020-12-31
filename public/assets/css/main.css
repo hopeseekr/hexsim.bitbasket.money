@@ -1,3 +1,44 @@
+body {
+    background: #26508a url(https://www.sciencemag.org/sites/default/files/styles/article_main_image_-_1280w__no_aspect_/public/proxima%20b.png?itok=tQcf_eps) no-repeat fixed;
+    background-size: cover;
+    max-width: 1500px;
+}
+
+div.logo #appLogo {
+    height: 400px;
+    background: url(/header_wide.png) no-repeat fixed;
+    background-size: 1500px;
+}
+
+@media only screen and (max-width: 600px) {
+    div.logo #appLogo {
+        height: 100px;
+        background: url(/header-mobile.jpg) no-repeat center fixed top;
+        background-size: contain;
+    }
+}
+
+div.logo h1 {
+    display: none;
+}
+
+/* Main Template */
+section#base {
+    background: #c7673899;
+    min-height: 500px;
+    width: 60em;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+section#base .container {
+    opacity: 100%;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+/* Login/Registration Boxes */
 .divider-text {
     position: relative;
     text-align: center;
@@ -106,3 +147,5 @@ input:focus{
 .links a{
     margin-left: 4px;
 }
+
+/* End Login/Registration Boxes */
