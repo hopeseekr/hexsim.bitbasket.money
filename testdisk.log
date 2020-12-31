@@ -1,0 +1,29 @@
+
+
+Thu Oct  3 19:28:41 2019
+Command line: TestDisk
+
+TestDisk 7.0, Data Recovery Utility, April 2015
+Christophe GRENIER <grenier@cgsecurity.org>
+http://www.cgsecurity.org
+OS: Linux, kernel 5.3.1-arch1-1-ARCH (#1 SMP PREEMPT Sat Sep 21 11:33:49 UTC 2019) x86_64
+Compiler: GCC 8.2
+Compilation date: 2018-10-03T23:07:17
+ext2fs lib: 1.45.4, ntfs lib: libntfs-3g, reiserfs lib: 0.3.0.5, ewf lib: none, curses lib: ncurses 6.1
+/dev/sda: LBA, HPA, LBA48 support
+/dev/sda: size       468862128 sectors
+/dev/sda: user_max   468862128 sectors
+/dev/sda: native_max 468862128 sectors
+/dev/sdb: LBA, LBA48 support
+/dev/sdb: size       976773168 sectors
+/dev/sdb: user_max   976773168 sectors
+Warning: can't get size for Disk /dev/mapper/control - 0 B - 0 sectors, sector size=512
+Hard disk list
+Disk /dev/sda - 240 GB / 223 GiB - CHS 29185 255 63, sector size=512 - CT240BX200SSD1, S/N:1609F017B5BC, FW:MU02.6
+Disk /dev/sdb - 500 GB / 465 GiB - CHS 60801 255 63, sector size=512 - Crucial_CT500MX200SSD4, S/N:162112C4F2E5, FW:MU03
+Disk /dev/sdc - 4000 GB / 3726 GiB - CHS 486401 255 63, sector size=512 - TOSHIBA External USB 3.0, FW:5438
+
+Partition table type (auto): Intel
+Disk /dev/sda - 240 GB / 223 GiB - CT240BX200SSD1
+Partition table type: Intel
+SIGINT detected! TestDisk has been killed.
