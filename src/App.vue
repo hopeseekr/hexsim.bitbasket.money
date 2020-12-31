@@ -2,10 +2,11 @@
     <section id="base">
         <div class="container">
             <div class="row">
-                <div class="col-sm">
-                    <h2>Main Content</h2>
-                </div>
+                <header class="col-sm">
+                    <h2>Hex Investment Calculator</h2>
+                </header>
             </div>
+            <Dashboard/>
         </div>
     </section>
 </template>
@@ -15,12 +16,12 @@
 
     import Header from "./components/partials/Header";
     import MobileHeader from "./components/partials/MobileHeader";
+    import Dashboard from "@/components/Dashboard";
 
     export default {
         name: 'app',
         components: {
-            Header,
-            MobileHeader
+            Dashboard
         },
         data() {
             return {
