@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@toast-ui/vue-chart": "^1.1.2",
     "axios": "^0.19.2",
     "blob-util": "^2.0.2",
     "core-js": "^2.6.12",
